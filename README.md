@@ -1,4 +1,4 @@
-# Transformer from Scratch for News Category Classification
+# Transformer from Scratch + FineTuning Approaches for News Category Classification
 
 A complete implementation of a Transformer encoder model built from scratch using PyTorch for news article category classification. This project demonstrates the core components of the Transformer architecture and applies it to multi-class text classification.
 
