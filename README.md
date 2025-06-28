@@ -440,48 +440,6 @@ inference_model = lora_model        # Best balance
 4. **Training time scales roughly with number of trainable parameters**
 5. **Memory usage is dominated by gradient computation and optimizer states**
 
-## �🔮 Future Enhancements
-
-Potential improvements and extensions:
-
-1. **Model Architecture**:
-   - Implement encoder-decoder architecture
-   - Add cross-attention mechanisms
-   - Experiment with different positional encodings
-   - Compare with other pre-trained models (RoBERTa, ALBERT, etc.)
-
-2. **Fine-tuning Improvements**:
-   - Implement AdaLoRA (adaptive LoRA)
-   - Experiment with different LoRA ranks
-   - Try prompt tuning and prefix tuning
-   - Implement QLoRA for quantized fine-tuning
-
-3. **Training Improvements**:
-   - Learning rate scheduling
-   - Gradient clipping
-   - Mixed precision training
-   - Data augmentation techniques
-   - Curriculum learning strategies
-
-4. **Evaluation**:
-   - Detailed metrics (F1, precision, recall)
-   - Confusion matrix analysis
-   - Error analysis and model interpretation
-   - Cross-validation for robust evaluation
-   - Statistical significance testing
-
-5. **Optimization**:
-   - Model pruning and quantization
-   - Knowledge distillation
-   - Efficient attention variants
-   - Dynamic batching and gradient accumulation
-
-6. **Comparative Analysis**:
-   - Benchmark against other architectures
-   - Ablation studies on components
-   - Hyperparameter sensitivity analysis
-   - Scalability studies across different data sizes
-
 ## 📚 References
 
 - [Attention Is All You Need](https://arxiv.org/abs/1706.03762) - Original Transformer paper
